@@ -1,0 +1,358 @@
+body{
+    background-image: url("asess/image/img1.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header{
+    height:110px;
+    width: 100%; 
+      
+}
+
+.header:hover{
+    background-color: rgba(50, 49, 49, 0.148);
+}
+.logo_heavy{
+    margin:10px 20px;
+    color:rgb(10, 254, 254);
+    text-decoration: none; 
+    font-size: 2.0rem;
+    
+}
+.header_navbar-list{
+    display:flex;
+    list-style: none;
+}
+.header_navbar-item{
+    margin:0 30px;
+    text-decoration: none; 
+    color:rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+.header_navbar-item:hover{
+    color: rgb(87, 249, 238);
+}
+.header_navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    position: relative;
+
+}
+.search_box{
+    border-radius: 30px;
+    height: 40px;
+    background-color:#fff;
+}
+.search_box-input{
+    background:none;
+    border:none;
+    outline:none;
+    padding:10px 15px;
+    font-size: 14px;
+}
+.search_box-btn{
+    border:none;
+    background:#fff;
+    border-radius: 50%;
+    padding:12px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.search_box-btn:hover{
+    color:  rgb(87, 249, 238);
+}
+.login_item{
+    text-decoration: none; 
+    color:aliceblue;
+    font-size: 1.2rem;
+    list-style: none;
+    margin: 10px 15px 0px 15px;
+}
+.login_item:hover{
+    color:  rgb(87, 249, 238);
+
+}
+.header_navbar_right{
+    display: flex;
+    padding: 0px 30px;
+    height: 40px;
+    margin: 4px;
+}
+
+#Container{
+    width: 100%;
+    min-height: 200px;
+    background-color:beige;
+}
+#Container h1{
+    text-align: center;
+    color:blueviolet;
+    text-transform: uppercase;
+}
+
+#Container h2{
+    font-size: 35px;
+    margin-left: 20px;
+    color:bisque;
+}
+#Container2{
+    width: 100%;
+    min-height: 400px;
+     
+}
+#Container2 img{
+    width: 500px;
+    min-height: 370px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+#Container2 p{
+    margin-top: -360px;
+    margin-left: 510px;
+    font-size: 21px;
+}
+
+
+#Container3{
+    width: 100%;
+    min-height: 400px;
+    margin-top:100px ;
+     
+}
+#Container3 img{
+    width: 500px;
+    min-height: 370px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+#Container3 p{
+    margin-top: -360px;
+    margin-left: 510px;
+    font-size: 21px;
+}
+
+#Container4{
+
+    width: 100%;
+    min-height: 400px;
+    margin-top:100px ;
+    
+}
+#Container4 img{
+    width: 500px;
+    min-height: 370px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+#Container4 p{
+    margin-top: -360px;
+    margin-left: 510px;
+    font-size: 21px;
+}
+#Container5{
+    width: 100%;
+    min-height: 400px;
+    margin-top:100px ;
+}
+#Container5 img{
+    width: 500px;
+    min-height: 370px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+#Container5 p{
+    margin-top: -360px;
+    margin-left: 510px;
+    font-size: 21px;
+}
+
+#Container6 {
+    width: 100%;
+    min-height: 400px;
+    margin-top:100px ;
+}
+#Container6 img{
+    width: 500px;
+    min-height: 370px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+#Container6 p{
+    margin-top: -360px;
+    margin-left: 510px;
+    font-size: 21px;
+}
+
+#Container7{
+    width: 100%;
+    min-height: 400px;
+    margin-top:100px ;
+}
+#Container7 img{
+    width: 500px;
+    min-height: 370px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+#Container7 p{
+    margin-top: -360px;
+    margin-left: 510px;
+    font-size: 21px;
+}
+
+#Container8{
+    width: 100%;
+    min-height: 400px;
+    margin-top:100px ;
+}
+#Container8 img{
+    width: 500px;
+    min-height: 370px;
+    margin-top: 15px;
+    border-radius: 15px;
+}#Container8 p{
+    margin-top: -360px;
+    margin-left: 510px;
+    font-size: 21px;
+}
+
+#Container9{
+    width: 100%;
+    min-height: 400px;
+    margin-top:100px ;
+}
+#Container9 img{
+    width: 500px;
+    min-height: 370px;
+    margin-top: 15px;
+    border-radius: 15px;
+}#Container9 p{
+    margin-top: -360px;
+    margin-left: 510px;
+    font-size: 21px;
+}
+
+#Container10{
+    width: 100%;
+    min-height: 400px;
+    margin-top:100px ;
+}
+#Container10 img{
+    width: 500px;
+    min-height: 370px;
+    margin-top: 15px;
+    border-radius: 15px;
+}#Container10 p{
+    margin-top: -360px;
+    margin-left: 510px;
+    font-size: 21px;
+}
+
+#Container11{
+    width: 100%;
+    min-height: 400px;
+    margin-top:100px ;
+}
+#Container11 img{
+    width: 500px;
+    min-height: 370px;
+    margin-top: 15px;
+    border-radius: 15px;
+}#Container11 p{
+    margin-top: -360px;
+    margin-left: 510px;
+    font-size: 21px;
+}
+
+.footer{
+    padding-top: 0px;
+    background-color: rgba(170, 180, 174, 0.667);
+    width: 100%;
+    min-height:250px;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+.footer-inf ul li{
+    list-style: none;
+    margin-left: -40px;   
+}
+.footer-inf{
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.footer-inf h2{
+    font-size: 19px;
+    color: #272222;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.inf-col2 li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    color: black;
+}
+.inf-col2 li a:hover{ 
+    color: #062831bf;
+    padding-left: 8px;
+}
+.social-links{
+    margin-top: 10px;
+}
+.social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.701);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #584d4ddd;
+    transition: all 0.5s ease;
+}
+.facebook:hover{
+    color: #fff;
+    background-color: rgb(71, 171, 242);
+}
+.twitter:hover{
+    color: #fff;
+    background-color: rgb(109, 190, 249);
+}
+.ig:hover{
+    color:#C13584;
+    background-color:rgba(240, 248, 255, 0.943);
+}
+.tiktok:hover{
+    color: #fff;
+    background-color: black;
+}
+.git:hover{
+    color: #fdfdfd;
+    background-color:#4B0082;
+}
+#main{
+    margin-top: 30px;
+    height: 70px;
+    background-image: url("Image/15-Bootstrap-login-forms38.webp");
+}
+#main ul li{
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-style: oblique;
+    text-decoration: dotted;
+}
+#main ul li a{
+    color:rgb(172, 180, 158);
+}

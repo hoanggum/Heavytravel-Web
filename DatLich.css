@@ -1,0 +1,461 @@
+*{
+    box-sizing: border-box;
+
+   
+}
+body{
+    width: 100%;
+}
+.header{
+    height:110px;
+    width: 100%; 
+    background-image: url(Image/Canh-dep-thien-nhien-Viet-Nam.jpg);
+    background-size:cover;
+    background-position-x: 0px;
+    background-position-y: -228px;
+}
+.header:hover{
+    background-color: rgba(50, 49, 49, 0.148);
+
+}
+.logo_heavy{
+    margin:10px 20px;
+    color:rgb(10, 254, 254);
+    text-decoration: none; 
+    font-size: 2.0rem;  
+}
+.header_navbar-list{
+    display:flex;
+    list-style: none;
+    
+}
+.header_navbar-item{
+    margin:0 30px;
+    text-decoration: none; 
+    color:rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+.header_navbar-item:hover{
+    color: rgb(87, 249, 238);
+}
+.header_navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    position: relative;
+
+}
+.search_box{
+    border-radius: 30px;
+    height: 40px;
+    background-color:#fff;
+}
+.search_box-input{
+    background:none;
+    border:none;
+    outline:none;
+    padding:10px 15px;
+    font-size: 14px;
+}
+.search_box-btn{
+    border:none;
+    background:#fff;
+    border-radius: 50%;
+    padding:12px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.search_box-btn:hover{
+    color:  rgb(87, 249, 238);
+}
+.login_item{
+    text-decoration: none; 
+    color:aliceblue;
+    font-size: 1.2rem;
+    list-style: none;
+    margin: 10px 15px 0px 15px;
+}
+.login_item:hover{
+    color:  rgb(87, 249, 238);
+
+}
+.header_navbar_right{
+    display: flex;
+    padding: 0px 30px;
+    height: 40px;
+    margin: 4px;
+    
+}
+body{
+    width:100%;
+}
+#banner{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 400px;
+}
+.text{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:salmon;
+}
+.text h2{
+    color:mediumturquoise;
+}
+#left{
+    width: 54%;
+    min-height: 700px;
+    border: 1px solid grey;
+    float: left;
+    background-color:azure;
+    margin-bottom: 5px;
+    margin-left: 70px;
+    border-radius: 5px;
+}
+#right{
+    width: 34%;
+    min-height: 761px;
+    border: 1px solid grey;
+    float: right;
+    background-color: azure;
+    margin-bottom: 5px;
+    margin-right: 65px;
+    border-radius: 5px;
+}
+.mien{
+    margin-left: 10px;
+    border: 1px solid grey;
+    background-color: lightgoldenrodyellow;
+    width: 98%;
+    border-radius: 5px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+table{
+    margin-left: 10px;
+    font-size: 1em;
+    background-color: transparent;
+    width: 98%;
+    margin-bottom: 15px;
+    border-collapse: collapse; 
+}
+table,th,td{
+    border: 1px solid grey;
+}
+td{
+    padding-left: 79px;
+}
+#tuVan{
+    margin-left: 10px;
+}
+.Sent{
+    background: transparent;
+    border: 2px solid grey;
+    color: white;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: black;
+    background-color: #fff;
+}
+#datLich{
+    border: 2px solid grey;
+    background-color: beige;
+
+}
+#thongTin{
+    background-color: burlywood;
+    border: 2px solid grey;
+}
+#nhapThongTin{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#datLich{
+    background: url(Image/4362628a841d3f98d543f9282f941b31.jpg);
+    background-size:cover;
+    background-position-x: -15px;
+    background-position-y: 16px;
+}
+
+.nhapForm{
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    flex-grow: 1;
+}
+.nhapForm::placeholder{
+    color: white;
+}
+.sent{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 80%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    margin-bottom: 25px;
+    margin-left: 42px;
+    transition: 0.25s ease-in-out;
+    margin-top: 5px;
+}
+.phuongthuc{
+    color: white;
+}
+.nganhang{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    margin: 10px 0 15px 0;
+}
+.vnpay{
+    border: 1px solid grey;
+    height: 100px;   
+    width: 100px;
+}
+.vnpay:hover
+{
+    border: 5px solid lightskyblue;
+    border-radius: 15px;
+
+}
+.vietcombank{
+    border: 1px solid grey;
+    height: 100px;   
+    width: 100px;
+}
+.vietcombank:hover
+{
+    border: 5px solid lightskyblue;
+    border-radius: 15px;
+
+}
+.momo{
+    border: 1px solid grey;
+    height: 100px;   
+    width: 100px;
+}
+
+.momo:hover
+{
+    border: 5px solid lightskyblue;
+    border-radius: 15px;
+}
+.sent:hover{
+    border: 1px solid #54a0ff;
+    color:#54a0ff;
+}
+
+#btnVnPay {
+    display: none;
+}
+#btnVnPay:checked + label > img {
+    border: 5px solid lightskyblue;
+    border-radius: 15px;
+}
+#btnVietcombank {
+    display: none;
+}
+#btnVietcombank:checked + label > img {
+    border: 5px solid lightskyblue;
+    border-radius: 15px;
+}
+#btnMomo {
+    display: none;
+}
+#btnMomo:checked + label > img {
+    border: 5px solid lightskyblue;
+    border-radius: 15px;
+}
+.luaChon{
+    background: transparent;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    width: 40px;
+    height: 40px;
+}
+.chonVung{
+    color: black;
+    background-color: bisque;
+}
+.chonVungg{
+    color: black;
+    background-color: lightskyblue;
+}
+.chonDD{
+    color: black;
+    background-color: bisque;
+}
+.chonDDg{
+    color: black;
+    background-color:paleturquoise;
+}
+
+.Sent{
+    border: 1px solid grey;
+    background: lightcyan;
+    color: black;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: 1s;
+}
+.Sent:hover{
+    background: aquamarine;
+}
+#nenTrong{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 85px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#ThamKhao{
+    margin: 0 auto;
+   width: 100%;
+}
+.headline{
+    margin-left: 68px;
+    padding-top: 785px;
+    text-transform: uppercase;
+
+}
+ul.NDThamKhao{
+    border: 1px solid #bebebe;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background: rgba(191, 255, 195, 0.53);
+}
+.ND-thumb{
+    text-align: center;
+    width: 250px;
+    height: 220px;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.NDThamKhao{
+    width: 100%;
+}
+ul.NDThamKhao li .ND-info a{
+    display: block;
+    text-decoration: none;
+}
+
+ul.NDThamKhao li .ND-info a.ND-main{
+    margin-left: -20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+ul.NDThamKhao li .ND-info a.ND-time{
+    text-align: center;
+    margin-top: 20px; 
+    margin-left: -25px;
+    margin-bottom: 5px;
+    color: #bebebe;
+}
+ul.NDThamKhao li .ND-info a.ND-timeLT{ 
+    margin-left: -25px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #bebebe;
+}
+ul.NDThamKhao li .ND-info div.ND-price{ 
+    margin-left: -25px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: red;
+    font-weight: bold;
+}
+.footer{
+    padding-top: 0px;
+    background-color: rgba(170, 180, 174, 0.667);
+    width: 100%;
+    min-height:250px;
+    display:flex;
+    justify-content: space-between;
+    
+
+}
+.footer-inf ul li{
+    list-style: none;
+    margin-left: -40px;   
+}
+.footer-inf{
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.footer-inf h2{
+    font-size: 19px;
+    color: #272222;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.inf-col2 li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    color: black;
+}
+.inf-col2 li a:hover{ 
+    color: #062831bf;
+    padding-left: 8px;
+}
+.social-links{
+    margin-top: 10px;
+}
+.social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.701);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #584d4ddd;
+    transition: all 0.5s ease;
+}
+.facebook:hover{
+    color: #fff;
+    background-color: rgb(71, 171, 242);
+}
+.twitter:hover{
+    color: #fff;
+    background-color: rgb(109, 190, 249);
+}
+.ig:hover{
+    color:#C13584;
+    background-color:rgba(240, 248, 255, 0.943);
+}
+.tiktok:hover{
+    color: #fff;
+    background-color: black;
+}
+.git:hover{
+    color: #fdfdfd;
+    background-color:#4B0082;
+}
+
+

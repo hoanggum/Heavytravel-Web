@@ -1,0 +1,47 @@
+body{
+    background-color:burlywood;
+}
+.gt{
+    display:grid;
+    height: 1200px;
+    width: 100%;
+}
+.gt1{
+    font-size: 30px;
+    background-image: url("Image/HaNoi.jpg");
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    background-size: cover;
+    text-align: center;
+    border: 1px solid cornsilk;
+}
+.gt2{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid cornsilk;
+    background-image: url("Image/Hue.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.gt3{
+    font-size: 30px;
+    background-image: url("Image/VungTau.jpg");
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid cornsilk;
+    background-size: cover;
+
+}
+.gt4{
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    background-image: url("Image/qb2qit4j.png");
+    text-align: center;
+    border: 1px solid cornsilk;
+    font-size: 30px;
+    background-size: cover;
+
+}

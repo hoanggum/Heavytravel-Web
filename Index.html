@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Reset.css"> 
+
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/4c89ecea36.js" crossorigin="anonymous"></script>
+    <title>Heavy Travel</title>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header_logo">
+                <a class="logo_heavy" href="Index.html"">Heavy.Com</a>
+            </div>
+            <nav class="header_navbar">
+                <ul class="header_navbar-list">
+                    <li><a class="header_navbar-item" href="Index.html">Trang Chủ</a></li>
+                    <li><a class="header_navbar-item" href="GioiThieu.html">Giới Thiệu</a></li>
+                    <li><a class="header_navbar-item" href="DatLich.html">Đặt Lịch</a></li>
+                    <li><a class="header_navbar-item" href="Review.html">Đánh Giá</a></li>
+                    <li><a class="header_navbar-item" href="#Footer">Liên Hệ</a></li>
+                </ul>
+                <div class="header_navbar_right">
+                    <div class="search_box">
+                        <input class="search_box-input" type="text" placehoder="Bạn muốn tìm điều gì?">
+                        <button class="search_box-btn"><a class="fas fa-magnifying-glass"></a></button>
+                    </div>
+                    <div class="login">
+                        <a class="login_item" href="Login.html">Đăng nhập</a>
+                        <button class="search_box-btn" onclick="window.location.href='Login.html'"><a href="Login.html" class="fas fa-user"></a></button>
+                    </div>
+                </div>
+                
+            </nav>
+            
+        </header>
+        
+        <div class="container">
+            <video class="video-slide" src="asess/video/bo-bien-7268.mp4" autoplay muted loop></video>
+            <div class="content1">
+                <h2>Summer<br><span>Trips</span>
+                </h2>
+                <p>Summer has arrived. If you do not have trips with relatives,<br> it is a pity.Let's enjoy a wonderful summer together.<br> Feel free to contact us, your job is just to enjoy.</p>
+                <br>
+                <a href="DatLich.html">Booking</a>
+            </div>
+            <div class="content2">
+                <h3 style="font-size: 23px; color:darkblue;">Giới thiệu về Heavy Travel</h3>
+                <p style="padding: 5px;"> Chúng tôi đã ấp ủ kế hoạch dự án Heavy Travel đã từ lâu. Với mong muốn mang đến cho mọi người một chuyến đi thật tuyệt vời. Giúp mọi người có một chuyến đi thật thư giãn sau một thời gian làm việc chăm chỉ. Nay Heavy Travel đã được chúng tôi đã được đưa vào hoạt động.<br>Mong sẽ được sự ủng hộ của tất cả mọi người.<br>Niềm tin của bạn là thứ quý giá nhất đối với chúng tôi.<br>Heavt luôn hoạt động dựa trên tiêu trí:<br> <h3 style="color: red;">UY TÍN - CHẤT LƯỢNG - TÂM HUYẾT</h3></p>
+            </div>
+            <div class="content3">
+                <h3 class="content3_ins">Những danh lam thắng cảnh ở việt nam</h3>
+                <div id="container_slideshow">
+                    <button class="prev" onclick="prev()"><a class="fas fa-chevron-left"></a></button>
+                    <button class="next" onclick="next()"><a class="fas fa-chevron-right"></a></button>
+    
+                </div>
+            </div>          
+            <div class="content4">
+                <div class="recomend">
+                    <h2 style="font-size: 28px;font-weight: 10px;padding-top: 10px;">Recommended Destinations from Việt Nam</h2>
+                    <button id="prev1"><a class="fas fa-chevron-left"></a></button>
+                    <button id="next1"><a class="fas fa-chevron-right"></a></button>
+                    <div class="form-recomend">
+                        <div class="recomend-content">
+                            <div class="recomend-card">
+                                <img src="asess/image/Hanoi.webp" style="width: 250px; height: 320px;">
+                                
+                                <button class="card-btn" onclick="window.location.href='DatLich.html'">Booking Now</button>
+                                <h2><span style="font-size:18px;padding-bottom:10px;">Hà Nội</span></h2>
+                            </div>
+                            <div class="recomend-card">
+                                <img src="asess/image/VungTau.webp" style="width: 250px; height: 320px;">
+                                
+                                <button class="card-btn" onclick="window.location.href='DatLich.html'">Booking Now</button>
+                                <h2><span style="font-size:18px;padding-bottom:10px;">Vũng Tàu</span></h2>
+                            </div>
+                            <div class="recomend-card">
+                                <img src="asess/image/DaNang.webp" style="width: 250px; height: 320px;">
+                                
+                                <button class="card-btn" onclick="window.location.href='DatLich.html'">Booking Now</button>
+                                <h2><span style="font-size:18px;padding-bottom:10px;">Đà Nẵng</span></h2>
+                            </div>
+                            <div class="recomend-card">
+                                <img src="asess/image/HCM.webp" style="width: 250px; height: 320px;">
+                                
+                                <button class="card-btn" onclick="window.location.href='DatLich.html'">Booking Now</button>
+                                <h2><span style="font-size:18px;padding-bottom:10px;">Hồ Chí Minh</span></h2>
+                            </div>
+                            <div class="recomend-card">
+                                <img src="asess/image/PhuQuoc.webp" style="width: 250px; height: 320px;">
+                                
+                                <button class="card-btn" onclick="window.location.href='DatLich.html'">Booking Now</button>
+                                <h2><span style="font-size:18px;padding-bottom:10px;">Phú Quốc</span></h2>
+                            </div>
+                            <div class="recomend-card">
+                                <img src="asess/image/HoiAn.webp" style="width: 250px; height: 320px;">
+                                
+                                <button class="card-btn" onclick="window.location.href='DatLich.html'">Booking Now</button>
+                                <h2><span style="font-size:18px;padding-bottom:10px;">Hội An</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+            
+        <div style="clear:both"></div>
+        <footer class="footer" id="Footer">
+                <div class="footer-inf">
+                        <h2>Thông Tin Liên Hệ</h2>
+                        <hr style="border: 2px solid rgba(99, 130, 130, 0.84); width: 110px;float: left;">
+                        <br>
+                        <ul>
+                            <li><a class="fas fa-location-dot" style="padding: 5px;"></a> <a>140 Lê Trọng Tấn, Tân Phú, <br> Thành Phố Hồ Chí Minh.</a></li>
+                            <li><a class="fas fa-phone" style="padding: 5px;"></a><a>0938 494 482</a></li>
+                            <li><a class="fas fa-envelope" style="padding: 5px;"></a><a>Heavyxinchao@gmail.com.vn</a></li>
+
+                        </ul>
+                </div>
+                <div class="footer-inf">
+                    <h2>Về Heavy</h2>
+                    <hr style="border: 2px solid rgba(99, 130, 130, 0.84); width: 110px;float: left;">
+                    <br>
+                    <ul class="inf-col2">
+                        <li class="int-col2"><a href="Index.html">Trang Chủ</a></li>
+                        <li class="int-col2"><a href="GioiThieu.html">Giới Thiệu</a></li>
+                        <li class="int-col2"><a href="DatLich.html">Đặt Lịch</a></li>
+                        <li class="int-col2"><a href="Review.html">Đánh Giá</a></li>
+                        <li class="int-col2"><a href="#Footer">Liên Hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-inf">
+                    <h2>Dịch Vụ</h2>
+                    <hr style="border: 2px solid rgba(99, 130, 130, 0.84); width: 110px;float: left;">
+                    <br>
+                    <ul class="inf-col2">
+                        <li class="int-col2"><a href="MienTay.html">Tour Miền Tây</a></li>
+                        <li class="int-col2"><a href="MienNam.html">Tour Miền Nam</a></li>
+                        <li class="int-col2"><a href="MienTrung.html">Tour Miền Trung</a></li>
+                        <li class="int-col2"><a href="MienBac.html">Tour Miền Bắc</a></li>
+                        <li class="int-col2"><a href="#">Tour Ngẫu Nhiên</a></li>
+                    </ul>
+                </div>
+                <div class="footer-inf">
+                      <h2>Theo dõi chúng tôi trên</h2>
+                      <hr style="border: 2px solid rgba(99, 130, 130, 0.84); width: 110px;float: left;margin-bottom: 2px;">
+                      <br>
+                        <div class="social-links">
+                        <a href="#" class="facebook"><i class="fab fa-facebook-f"> <ion-icon name="logo-facebook"></ion-icon></i></a>
+                        <a href="#" class="twitter"><i class="fab fa-twitter"><ion-icon name="logo-twitter"></ion-icon></i></a>
+                        <a href="#" class="ig"><i class="fab fa-instagram"><ion-icon name="logo-instagram"></ion-icon></i></a>
+                        <a href="#" class="tiktok"><i class="fab fa-tiktok"><ion-icon name="logo-linkedin"></ion-icon></i></a>
+                        <a href="#" class="git"><i class="fab fa-github"><ion-icon name="logo-github"></ion-icon></i></a>
+
+                    </div>
+                </div>
+        </footer>
+    </div>
+    <script src="main.js">
+        setInterval(auto_SlideShow,5000);
+    </script>
+</body>
+</html>

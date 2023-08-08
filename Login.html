@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Reset.css"> 
+
+    <link rel="stylesheet" href="Login.css">
+    <script src="https://kit.fontawesome.com/4c89ecea36.js" crossorigin="anonymous"></script>
+    <title>Heavy Travel Login / Registration</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container register-container">
+            <form action="#">
+                <h1>Đăng Kí</h1>
+                <input type="text" placeholder="Họ và Tên" id="name">
+                <input type="text" placeholder="Tên Đăng Nhập" id="username">
+                <input type="email" placeholder="Email" id="email">
+                <input type="password" placeholder="Password" id="password">
+                <button onclick="Register()">Đăng Kí</button>
+                <span>Dùng tài khoản liên kết</span>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social"><i class="fab fa-github"></i></a>
+
+                </div>
+            </form>
+        </div>
+        <div class="form-container login-container">
+            <form action="#">
+                <h1>Đăng Nhập</h1>
+                <input type="text" placeholder="Tên Đăng Nhập" id="username2">
+                <input type="password" placeholder="Password" id="password2">
+                <div class="contentlogin">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="Remember me">Remember Me</label>
+                    </div>
+                    <div class="pass-link">
+                        <a href="forgotPassword.html">Quên Mật Khẩu?</a>
+                    </div>
+                </div>
+                <button onclick="login()">Đăng Nhập</button>
+                <span>Dùng tài khoản liên kết</span>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social"><i class="fab fa-github"></i></a>
+                </div>
+            </form>
+        </div>
+        <div class="overplay-container">
+            <div class="overplay">
+                <div class="overplay-panel overplay-left">
+                    <h1 class="tittle">Login<br>Here</h1>
+                    <p>Bạn Đã Có Tài Khoảng ?<br>Đăng Nhập Tại Đây</p>
+                    <button class="over-login" id="login">Login</button>
+                </div>
+                <div class="overplay-panel overplay-right">
+                    <h1 class="tittle">Register<br>Here</h1>
+                    <p>Bạn Chưa Từng Sở Hữu Tài Khoảng ?<br> Đăng Kí Tại Đây</p>
+                    <button class="over-login" id="register">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="ScriptLogin.js">
+    </script>
+</body>
+</html>

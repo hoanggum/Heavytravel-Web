@@ -1,0 +1,330 @@
+.header{
+    height:110px;
+    width: 100%;   
+    position: relative;
+    z-index: 1;
+}
+.header:hover{
+    background-color: rgba(50, 49, 49, 0.148);
+}
+.logo_heavy{
+    margin:10px 20px;
+    color:rgb(10, 254, 254);
+    text-decoration: none; 
+    font-size: 2.0rem;
+    
+}
+.header_navbar-list{
+    display:flex;
+    list-style: none;
+}
+.header_navbar-item{
+    margin:0 30px;
+    text-decoration: none; 
+    color:rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+.header_navbar-item:hover{
+    color: rgb(87, 249, 238);
+}
+.header_navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    position: relative;
+
+}
+.search_box{
+    border-radius: 30px;
+    height: 40px;
+    background-color:#fff;
+}
+.search_box-input{
+    background:none;
+    border:none;
+    outline:none;
+    padding:10px 15px;
+    font-size: 14px;
+}
+.search_box-btn{
+    border:none;
+    background:#fff;
+    border-radius: 50%;
+    padding:12px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.search_box-btn:hover{
+    color:  rgb(87, 249, 238);
+}
+.login_item{
+    text-decoration: none; 
+    color:aliceblue;
+    font-size: 1.2rem;
+    list-style: none;
+    margin: 10px 15px 0px 15px;
+}
+.login_item:hover{
+    color:  rgb(87, 249, 238);
+
+}
+.header_navbar_right{
+    display: flex;
+    padding: 0px 30px;
+    height: 40px;
+    margin: 4px;
+}
+/*container*/
+.container{
+    margin-bottom: 10px;
+    min-height: 700px;
+    max-width: 100%;
+}
+#container_slideshow{
+    position: relative;
+    margin: auto;
+    max-width:100%;
+    min-height:700px;
+    
+    background-image:url(asess/image/img6.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size:cover;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  
+  padding: 16px;
+  font-weight: bold;
+  font-size: 17px;
+  
+  transition: 0.6s ease;
+  border-radius: 55%;
+  user-select: none;
+  border:none;
+  background-color: rgba(221, 189, 189, 0);
+
+}
+.next {
+    right: 20px;
+
+}
+.prev{
+    left:20px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(220, 217, 217, 0.858);
+}
+.content1{
+    padding: 100px 200px;
+    position: relative;
+    max-width: 100%;
+    min-height: 500px;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 900px;
+    color: #fff;
+}
+.content1 a{
+    background: #fff;
+    padding: 15px 25px;
+    color: rgb(32, 88, 73);
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.content1 a:hover{
+    background-color: black;
+    color:rgb(98, 205, 248);
+}
+.video-slide{
+    z-index: 000;
+    position: absolute;
+    left: 0;
+    top:0;
+    max-width: 100%;
+}
+
+.content2{
+    padding-top: 60px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+    width: 100%;
+    box-shadow: 0px 8px 15px 0 grey,8px 8px 15px 0 grey;
+    min-height: 280px;
+    text-align: center;
+    background-color: rgba(209, 215, 213, 0.276);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content3_ins{
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+}
+.recomend-card img{
+    z-index: 000;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.card-btn{
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+    font-size: 13px;
+    background-color: rgba(145, 248, 248, 0.651);
+    color:white;
+    opacity: 0;
+    width: 80%;
+    padding: 10px;
+    z-index: 1;
+}
+.card-btn:hover{
+    opacity: 1;
+
+}
+.recomend-card h2{
+    padding: 260px 15px 0px 15px;
+    position: relative;
+    max-width: 100%;
+    min-height: 500px;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 0px;
+    color: #fff;
+}
+.content4{
+    max-width: 100%;
+    height: 450px;
+}
+.recomend{
+    max-width: 100%;
+    background-color: rgba(212, 212, 212, 0.447);
+    height: 450px;
+    padding-left: 48px;
+    margin-bottom: 5px;
+    position: absolute;
+}
+.recomend-content{
+    display: flex;
+    overflow-x: auto;
+    width: max-content;
+}
+.recomend-card{
+    z-index: 0;
+    width: 250px;
+    height: 330px;
+    position: relative;
+    margin-right: 36px;
+    overflow: hidden;
+}
+.form-recomend{
+    width: 1144px;
+    max-width: 100%;
+    overflow: auto;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    position: relative;
+
+}
+.form-recomend::-webkit-scrollbar{
+    display: none;
+}
+#prev1,#next1{
+    z-index: 1;
+   border: none;
+   border-radius: 50%;
+   position: absolute;
+    top: 50%;
+    padding: 15px;
+   font-weight: bold;
+   font-size: 18px; 
+   cursor: pointer;
+
+}
+
+#next1{
+    right: 15px;
+}
+#prev1{
+    left:20px;
+}
+/* Foooter */
+.footer{
+    clear: both;
+    padding-top: 0px;
+    background-color: rgba(170, 180, 174, 0.667);
+    width: 100%;
+    min-height:250px;
+    display:flex;
+    justify-content: space-between;
+    
+
+}
+.footer-inf ul li{
+    list-style: none;
+    margin-left: -40px;   
+}
+.footer-inf{
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.footer-inf h2{
+    font-size: 19px;
+    color: #272222;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.inf-col2 li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    color: black;
+}
+.inf-col2 li a:hover{ 
+    color: #062831bf;
+    padding-left: 8px;
+}
+.social-links{
+    margin-top: 10px;
+}
+.social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.701);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #584d4ddd;
+    transition: all 0.5s ease;
+}
+.facebook:hover{
+    color: #fff;
+    background-color: rgb(71, 171, 242);
+}
+.twitter:hover{
+    color: #fff;
+    background-color: rgb(109, 190, 249);
+}
+.ig:hover{
+    color:#C13584;
+    background-color:rgba(240, 248, 255, 0.943);
+}
+.tiktok:hover{
+    color: #fff;
+    background-color: black;
+}
+.git:hover{
+    color: #fdfdfd;
+    background-color:#4B0082;
+}

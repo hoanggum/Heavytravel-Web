@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Reset.css"> 
+
+    <script src="https://kit.fontawesome.com/4c89ecea36.js" crossorigin="anonymous"></script>
+    <title>Đặt Lịch</title>
+    <link rel="stylesheet" href="DatLich.css">
+</head>
+<body>
+    <tbody class="app">
+        <header class="header">
+            <div class="header_logo">
+                <a class="logo_heavy" href="Index.html">Heavy.Com</a>
+            </div>
+            <nav class="header_navbar">
+                <ul class="header_navbar-list">
+                    <li><a class="header_navbar-item" href="Index.html">Trang Chủ</a></li>
+                    <li><a class="header_navbar-item" href="GioiThieu.html">Giới Thiệu</a></li>
+                    <li><a class="header_navbar-item" href="DatLich.html">Đặt Lịch</a></li>
+                    <li><a class="header_navbar-item" href="Review.html">Đánh Giá</a></li>
+                    <li><a class="header_navbar-item" href="#Footer">Liên Hệ</a></li>
+                </ul>
+                <div class="header_navbar_right">
+                    <div class="search_box">
+                        <input class="search_box-input" type="text" placehoder="Bạn muốn tìm điều gì?">
+                        <button class="search_box-btn"><a class="fas fa-magnifying-glass"></a></button>
+                    </div>
+                    <div class="login">
+                        <a class="login_item" href="Login.html">Đăng nhập</a>
+                        <button class="search_box-btn" onclick="window.location.href='Login.html'"><a href="#" class="fas fa-user"></a></button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div>
+            <img id="banner" src="Image/Banner.png">
+        </div>
+        <hr width="100%" style="border: 2px solid grey;">
+        <div class="text">
+            <h2>Hãy cùng</h2>
+            <h3>Học hỏi những Kiến Thức - Kinh Nghiệm - Trãi Nghiệm</h3>
+            <h3>Qua những chuyến đi</h3>
+        </div>
+        <hr width="20%">
+        <div id="main">
+        
+            <div id="left">
+                <div id="schedule">
+                    <h2 style="margin-left: 10px;"><a class="fas fa-calendar" ></a> THAM KHẢO QUA VỀ VIỆT NAM </h2>
+                    <hr width="100%">
+                </div>
+                <div class="mien">
+                    <a href="MienBac.html" style="text-decoration: none;color: rgba(236, 128, 21, 0.686);"><h3 style="margin-left: 7px;"> MIỀN BẮC VIỆT NAM <a class="fas fa-angle-double-left" aria-hidden="true" style="float: right; margin-right: 7px;"></a></h3>
+                </a>
+                </div>
+                <div class="mien">
+                    <a href="MienTrung.html" style="text-decoration: none;color: rgba(16, 244, 69, 0.71);"><h3 style="margin-left: 7px;">MIỀN TRUNG VIỆT NAM <a class="fas fa-angle-double-left" aria-hidden="true" style="float: right; margin-right: 7px;"></a></h3>
+                </a>
+                </div>
+                <div class="mien">
+                   <a href="MienNam.html" style="text-decoration: none;color: rgba(246, 57, 57, 0.737);"> <h3 style="margin-left: 7px;">MIỀN NAM VIỆT NAM <a class="fas fa-angle-double-left" aria-hidden="true" style="float: right; margin-right: 7px;"></a></h3>
+                </a>
+                </div>
+                <div class="mien">
+                    <a href="MienTay.html" style="text-decoration: none;color: rgba(30, 200, 247, 0.523);"><h3 style="margin-left: 7px;">MIỀN TÂY VIỆT NAM <a class="fas fa-angle-double-left" aria-hidden="true" style="float: right; margin-right: 7px;"></a></h3>
+                </a>
+                </div>
+                <hr width="100%">
+                <div id="price">
+                    <h2 style="margin-left: 10px;"><a class="fas fa-euro"></a>  GIÁ THAM KHẢO </h2>
+                    <hr width="100%">
+                </div>
+                <div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    <strong>NGƯỜI LỚN</strong>
+                                    <br>
+                                    <p><strong>(Từ 11 tuổi trở lên)</strong></p>
+                                </th>
+                                <th>
+                                    <strong>TRẺ EM</strong>
+                                    <br>
+                                    <p><strong>(Từ 2 tuổi đến 11 tuổi)</strong></p>
+                                </th>
+                                <th>
+                                    <strong>TRẺ SƠ SINH VÀ NGƯỜI GIÀ</strong>
+                                    <br>
+                                    <p><strong>(Dưới 2 tuổi hoặc trên 60 tuổi)</strong></p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p><strong>9.999.999 VNĐ</strong></p>
+                                </td>
+                                <td>
+                                    <p><strong>4.999.999 VNĐ</strong></p>
+                                </td>
+                                <td>
+                                    <p style="padding-left: 30px;"><strong>1.999.999 VNĐ </strong></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <hr width="100%">
+                <div id="tuVan">
+                    <h2><a class="fas fa-phone"></a>Vui lòng để lại số điện thoại nếu cần được tư vấn</h2>
+                    <td><input type="tel" placeholder="Nhập số điện thoại" size="90px"></td>
+                    <a href="DatLich.html"><button onclick="alert('Vui lòng đợi chúng tôi sẽ liên hệ với bạn ngay!!!')" class="Sent">Gửi thông tin</button></a>
+                </div>
+                <hr width="100%">
+            </div>
+
+            <div id="right">
+                <form id="datLich">
+                    <div id="thongTin">
+                        <h2 style="color: yellow; margin-left: 70px;">THÔNG TIN ĐẶT TUOR</h2>     
+                    </div>                     
+                    <div id="nhapThongTin">
+                        <input type="text" class="nhapForm" placeholder="Nhập họ và tên*" size="55">
+                        <input type="number" class="nhapForm" placeholder="Nhập số điện thoại*" size="55">
+                        <input type="text" class="nhapForm" placeholder="Nhập email*" size="55">
+                        <input type="number" class="nhapForm" placeholder="Số người lớn" size="30">
+                        <input type="number" class="nhapForm" placeholder="Số trẻ em" size="30">
+                        <input type="date" class="nhapForm" placeholder="Chọn ngày khởi hành">
+                        <select name="Provine" style="width: 95%;" class="luaChon">
+                            <option class="chonVungg">Chọn miền cần đến</option>
+                            <option value="1" class="chonVung">Miền Bắc</option>
+                            <option value="2" class="chonVung">Miền Trung</option>
+                            <option value="3" class="chonVung">Miền Nam</option>
+                            <option value="4" class="chonVung">Miền Tây</option>
+                        </select>
+                        <select name="Provine" style="width:  95%" class="luaChon">
+                            <option class="chonDDg">Chọn nơi cần đến</option>
+                            <option value="1" class="chonDD">An Giang</option>
+                            <option value="2" class="chonDD">Bà Rịa – Vũng Tàu</option>
+                            <option value="3" class="chonDD">Bắc Giang</option>
+                            <option value="4" class="chonDD">Bắc Kạn</option>
+                            <option value="5" class="chonDD">Bạc Liêu</option>
+                            <option value="6" class="chonDD">Bắc Ninh</option>
+                            <option value="7" class="chonDD">Bến Tre</option>
+                            <option value="8" class="chonDD">Bình Định</option>
+                            <option value="9" class="chonDD">Bình Dương</option>
+                            <option value="10" class="chonDD">Bình Phước</option>
+                            <option value="11" class="chonDD">Bình Thuận</option>
+                            <option value="12" class="chonDD">Cà Mau</option>
+                            <option value="13" class="chonDD">Cần Thơ</option>
+                            <option value="14" class="chonDD">Cao Bằng</option>
+                            <option value="15" class="chonDD">Đà Nẵng</option>
+                            <option value="16" class="chonDD">Đắk Lắk</option>
+                            <option value="17" class="chonDD">Đắk Nông</option>
+                            <option value="18" class="chonDD">Điện Biên</option>
+                            <option value="19" class="chonDD">Đồng Nai</option>
+                            <option value="20" class="chonDD">Đồng Tháp</option>
+                            <option value="21" class="chonDD">Gia Lai</option>
+                            <option value="22" class="chonDD">Hà Giang</option>
+                            <option value="23" class="chonDD">Hà Nam</option>
+                            <option value="24" class="chonDD">Hà Nội</option>
+                            <option value="25" class="chonDD">Hà Tĩnh</option>
+                            <option value="26" class="chonDD">Hải Dương</option>
+                            <option value="27" class="chonDD">Hải Phòng</option>
+                            <option value="28" class="chonDD">Hậu Giang</option>
+                            <option value="29" class="chonDD">Hòa Bình</option>
+                            <option value="28" class="chonDD">Hưng Yên</option>
+                            <option value="28" class="chonDD">Khánh Hòa</option>
+                            <option value="28" class="chonDD">Kiên Giang</option>
+                            <option value="28" class="chonDD">Kon Tum</option>
+                            <option value="28" class="chonDD">Lai Châu</option>
+                            <option value="28" class="chonDD">Lâm Đồng</option>
+                            <option value="28" class="chonDD">Lạng Sơn</option>
+                            <option value="28" class="chonDD">Lào Cai</option>
+                            <option value="28" class="chonDD">Long An</option>
+                            <option value="28" class="chonDD">Nam Định</option>
+                            <option value="28" class="chonDD">Ninh Bình</option>
+                            <option value="28" class="chonDD">Ninh Thuận</option>
+                            <option value="28" class="chonDD">Phú Thọ</option>
+                            <option value="28" class="chonDD">Phú Yên</option>
+                            <option value="28" class="chonDD">Quảng Bình</option>
+                            <option value="28" class="chonDD">Quảng Nam</option>
+                            <option value="28" class="chonDD">Quảng Ngãi</option>
+                            <option value="28" class="chonDD">Quảng Ninh</option>
+                            <option value="28" class="chonDD">Quảng Trị</option>
+                            <option value="28" class="chonDD">Sóc Trăng</option>
+                            <option value="28" class="chonDD">Sơn La</option>
+                            <option value="28" class="chonDD">Tây Ninh</option>
+                            <option value="28" class="chonDD">Thái Bình</option>
+                            <option value="28" class="chonDD">Thái Nguyên</option>
+                            <option value="28" class="chonDD">Thanh Hóa</option>
+                            <option value="28" class="chonDD">Thừa Thiên Huế</option>
+                            <option value="28" class="chonDD">Tiền Giang</option>
+                            <option value="28" class="chonDD">TP Hồ Chí Minh</option>
+                            <option value="28" class="chonDD">Trà Vinh</option>
+                            <option value="28" class="chonDD">Tuyên Quang</option>
+                            <option value="28" class="chonDD">Vĩnh Long</option>
+                            <option value="28" class="chonDD">Vĩnh Phúc</option>
+                            <option value="28" class="chonDD">Yên Bái</option>
+
+                        </select>
+                    </div>
+                    <div class="phuongthuc">
+                        <h2 style="margin: -15px 0 8px 5px;">Lựa chọn phương thức thanh toán:</h2>
+                        <input checked="checked" name="gender" type="radio" value="TienMat"/>Thanh toán bằng tiền mặt.<br>
+                        <input name="gender" type="radio" value="ChuyenKhoan">Thanh toán bằng phương thức chuyển khoản<br>
+                        <input name="gender" type="radio" value="Khac">Khác
+                    </div>
+                    <div class="nganhang">
+                        <input name="render" type="checkbox" id="btnVnPay">
+                        <label class="btn" for="btnVnPay" ><img src="Image/vnpay-logo-inkythuatso-01-13-16-26-42.jpg" class="vnpay"></label>
+                        <input name="render" type="checkbox" id="btnVietcombank" />
+                        <label class="btn" for="btnVietcombank" ><img src="Image/VIETCOMBANK-LOGO.jpg" class="vietcombank"></label>
+                        <input name="render" type="checkbox" id="btnMomo" />
+                        <label class="btn" for="btnMomo" ><img src="Image/Untitled-2-200x200.jpg" class="momo"></label>
+                    </div>
+                    <button onclick="alert('Đặt lịch thành công !!!')" class="sent">Xác nhận</button>
+                
+                </form>
+            </div>
+        </div>
+
+    </tbody>
+    
+     <fbody class="apps">
+        <div id="ThamKhao">
+            <div class="headline"><h2>Các TOUR tham khảo</h2></div>
+            <ul class="NDThamKhao">
+                <li>
+                    <div class="ND-item">
+                        <div class="ND">
+                            <a href="" >
+                                <img src="Image/canh-dep-da-lat-1.jpg" alt="" class="ND-thumb">
+                            </a>
+                        </div>
+                        <div class="ND-info">
+                            <a href="" class="ND-main">Đà Lạt</a>
+                            <a href="" class="ND-time">3 ngày 2 đêm</a>
+                            <a href="" class="ND-timeLT">Tháng 9</a>
+                            <div class="ND-price">Chỉ từ 3.000.000 VNĐ/Lượt</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="ND-item">
+                        <div class="ND">
+                            <a href="" >
+                                <img src="Image/sapa-trong-may-mu-16349480971052073044867.jpg" alt="" class="ND-thumb">
+                            </a>
+                        </div>
+                        <div class="ND-info">
+                            <a href="" class="ND-main">Sapa</a>
+                            <a href="" class="ND-time">4 ngày 3 đêm</a>
+                            <a href="" class="ND-timeLT">Tháng 12</a>
+                            <div class="ND-price">Chỉ từ 4.999.000 VNĐ/Lượt</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="ND-item">
+                        <div class="ND">
+                            <a href="">
+                                <img src="Image/nhung-dia-diem-du-lich-noi-tieng-o-phu-quoc.jpg" alt=""  class="ND-thumb">
+                            </a>
+                        </div>
+                        <div class="ND-info">
+                            <a href="" class="ND-main">Phú Quốc</a>
+                            <a href="" class="ND-time">6 ngày 6 đêm</a>
+                            <a href="" class="ND-timeLT">Tháng 5</a>
+                            <div class="ND-price">Chỉ từ 4.999.000 VNĐ/Lượt</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="ND-item">
+                        <div class="ND">
+                            <a href="" >
+                                <img src="Image/1-min.jpg" alt="" class="ND-thumb">
+                            </a>
+                        </div>
+                        <div class="ND-info">
+                            <a href="" class="ND-main">Phong nha - Kẻ bàng</a>
+                            <a href="" class="ND-time">3 ngày 2 đêm</a>
+                            <a href="" class="ND-timeLT">Tháng 2</a>
+                            <div class="ND-price">Chỉ từ 2.999.000 VNĐ/Lượt</div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </fbody>
+    <div style="clear:both"></div>
+        <footer class="footer" id="Footer">
+                <div class="footer-inf">
+                        <h2>Thông Tin Liên Hệ</h2>
+                        <hr style="border: 2px solid rgba(99, 130, 130, 0.84); width: 110px;float: left;">
+                        <br>
+                        <ul>
+                            <li><a class="fas fa-location-dot" style="padding: 5px;"></a> <a>140 Lê Trọng Tấn, Tân Phú, <br> Thành Phố Hồ Chí Minh.</a></li>
+                            <li><a class="fas fa-phone" style="padding: 5px;"></a><a>0938 494 482</a></li>
+                            <li><a class="fas fa-envelope" style="padding: 5px;"></a><a>Heavyxinchao@gmail.com.vn</a></li>
+
+                        </ul>
+                </div>
+                <div class="footer-inf">
+                    <h2>Về Heavy</h2>
+                    <hr style="border: 2px solid rgba(99, 130, 130, 0.84); width: 110px;float: left;">
+                    <br>
+                    <ul class="inf-col2">
+                        <li class="int-col2"><a href="Index.html">Trang Chủ</a></li>
+                        <li class="int-col2"><a href="GioiThieu.html">Giới Thiệu</a></li>
+                        <li class="int-col2"><a href="DatLich.html">Đặt Lịch</a></li>
+                        <li class="int-col2"><a href="Review.html">Đánh Giá</a></li>
+                        <li class="int-col2"><a href="#Footer">Liên Hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-inf">
+                    <h2>Dịch Vụ</h2>
+                    <hr style="border: 2px solid rgba(99, 130, 130, 0.84); width: 110px;float: left;">
+                    <br>
+                    <ul class="inf-col2">
+                        <li class="int-col2"><a href="MienTay.html">Tour Miền Tây</a></li>
+                        <li class="int-col2"><a href="MienNam.html">Tour Miền Nam</a></li>
+                        <li class="int-col2"><a href="MienTrung.html">Tour Miền Trung</a></li>
+                        <li class="int-col2"><a href="MienBac.html">Tour Miền Bắc</a></li>
+                        <li class="int-col2"><a href="#">Tour Ngẫu Nhiên</a></li>
+                    </ul>
+                </div>
+                <div class="footer-inf">
+                      <h2>Theo dõi chúng tôi trên</h2>
+                      <hr style="border: 2px solid rgba(99, 130, 130, 0.84); width: 110px;float: left;margin-bottom: 2px;">
+                      <br>
+                        <div class="social-links">
+                        <a href="#" class="facebook"><i class="fab fa-facebook-f"> <ion-icon name="logo-facebook"></ion-icon></i></a>
+                        <a href="#" class="twitter"><i class="fab fa-twitter"><ion-icon name="logo-twitter"></ion-icon></i></a>
+                        <a href="#" class="ig"><i class="fab fa-instagram"><ion-icon name="logo-instagram"></ion-icon></i></a>
+                        <a href="#" class="tiktok"><i class="fab fa-tiktok"><ion-icon name="logo-linkedin"></ion-icon></i></a>
+                        <a href="#" class="git"><i class="fab fa-github"><ion-icon name="logo-github"></ion-icon></i></a>
+
+                    </div>
+                </div>
+        </footer>
+</body>
+
+</script>
+</html>

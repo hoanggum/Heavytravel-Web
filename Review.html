@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <title>DANH GIA</title>
+    <link rel="stylesheet" href="Reset.css"> 
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" type="text/css" href="Review.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/4c89ecea36.js" crossorigin="anonymous"></script>
+       
+</head>
+
+        <style>
+          .orange{
+            color: orange;
+          }
+          #khung{
+            width:100% ;
+            padding: 10px;
+        
+            
+          } 
+          #left{
+            width: 60%;
+            float: left;
+            margin-left: 10px;
+            margin-right: 30px;
+          }
+          #right{
+            float: right;
+            margin: 10px;
+            width: 20%;
+          }
+          
+          #hinh{
+            width: 50%;
+            height: 200px;
+            background-color: #AFAAAB;
+            float: left;
+            margin-right: 20px;
+            border-radius: 5px;
+            
+          }
+          #hinhNho{
+            width: 560px;
+            height: 80px;
+            margin-top: 10px;
+            margin-right: 30px;
+          }
+          .hn{
+            width: 102px;
+            height: 80px;
+            float: left;
+            margin-right: 10px;
+            background-color: #838181;
+          }
+          #Rkhung 
+          {
+            float: right;
+            width: 25%;
+            padding-left: 20px;
+            padding-right: 10px;
+           
+
+           
+          }
+          .btn-hero {
+                 font-family: "Roboto", sans-serif;
+                 text-transform: uppercase;
+                 background: transparent;
+                 color: #222;
+                 letter-spacing: 0.1rem;
+                 display: inline-block;
+                 font-weight: 700;
+                  transition: all 0.3s linear;
+                border: 2px solid #222;;
+                cursor: pointer;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+                border-radius: 0.25rem;
+               font-size: 30px;
+               padding: 0.75rem 1.25rem;
+               margin-bottom: 5px;
+               background-color: aliceblue;
+              }
+              #Rkhung div:hover
+              {
+                transform: scale(1.1);
+              }
+          </style>
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+          <div class="header_logo">
+              <a class="logo_heavy" href="Index.html">Heavy.Com</a>
+          </div>
+          <nav class="header_navbar">
+              <ul class="header_navbar-list">
+                  <li><a class="header_navbar-item" href="Index.html">Trang Chủ</a></li>
+                  <li><a class="header_navbar-item" href="GioiThieu.html">Giới Thiệu</a></li>
+                  <li><a class="header_navbar-item" href="DatLich.html">Đặt Lịch</a></li>
+                  <li><a class="header_navbar-item" href="Review.html">Đánh Giá</a></li>
+                  <li><a class="header_navbar-item" href="#Footer">Liên Hệ</a></li>
+              </ul>
+              <div class="header_navbar_right">
+                  <div class="search_box">
+                      <input class="search_box-input" type="text" placehoder="Bạn muốn tìm điều gì?">
+                      <button class="search_box-btn"><a class="fas fa-magnifying-glass"></a></button>
+                  </div>
+                  <div class="login">
+                      <a class="login_item" href="Login.html">Đăng nhập</a>
+                      <button class="search_box-btn" onclick="window.location.href='Login.html'"><a href="#" class="fas fa-user"></a></button>
+                  </div>
+              </div>
+              
+          </nav>
+          
+      </header>
+      <div style="clear: both;"></div>
+    
+      
+      
+  </div>
+    <div class="containers" style="width: 70%;">
+     
+      <div class="post">
+        <div class="text">Cảm ơn bạn đã đánh giá</div>
+        <div class="edit"><i class="fas fa-edit"></i></div>
+      </div>
+      <div class="star-rating">
+        <input type="radio" name="rate" id="rate-5">
+        <label for="rate-5" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-4">
+        <label for="rate-4" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-3">
+        <label for="rate-3" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-2">
+        <label for="rate-2" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-1">
+        <label for="rate-1" class="fas fa-star"></label>
+        
+        <form action="#">
+          <header></header>
+          <div class="textarea">
+            <textarea cols="30" placeholder="Miêu tả nhận xét của bạn về sản phẩm"></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit" id="buton"> Đánh Giá</button>
+            <input type="file" name="file"  style="display: block ;">
+
+        
+
+
+            
+          </div>
+        </form>
+      </div>
+
+    </div>
+    
+  
+    <div style="clear: both;"></div>
+    
+    <div id="khung">
+	
+      <div id="left">
+        <p class="btn-hero" style="font-size: 16px;font-weight: bold;color: #575555">Đánh giá khách hàng:</p>
+        <br>
+  
+        <div id="hinh">
+          <img  src="asess/image/saigon.jpg" height="100%" width="100%;" >
+      
+        </div>
+        <div><img src="asess/image/avatar.jpg" style="border-radius: 50%; width: 15%; height: 15%;"> <span style="color:#575555;"><br>****h9</span>
+          
+          <p class="icon"><i class="fa fa-star orange"></i>  <i class="fa fa-star orange"></i> <i class="fa fa-star orange"></i> <i class="fa fa-star orange "></i> <i class="fa fa-star orange "></i></p>
+        <p style="text-align: justify">Sài Gòn có nhiều cảnh đẹp có nhiều di tích lịch sử quan trọng.Có nhiều món ngon đáng để thử 1 lần</p>
+        </div>
+        <div style="clear: both;"></div>
+        <div id="hinhNho"> 
+          <div class="hn"><img src="asess/image/dam sen.jpg" width="100%" height="100%"></div>
+          <div class="hn"><img src="asess/image/ChoBenThanh.jpeg" width="100%" height="100%"></div>
+          <div class="hn"><img src="asess/image/BuiVien.jpg" width="100%" height="100%"></div>
+          <div class="hn"> <img src="asess/image/landmark81.jpg" width="100%" height="100%"></div>
+        
+        </div>
+      
+        <br><br>
+
+        <div id="hinh">
+
+            <img  src="asess/image/dalat.jpg" height="100%" width="100%;" >
+        
+          </div>
+          <div><img src="asess/image/hinh-avatar-nu.jpg" style="border-radius: 50%; width: 15%; height: 15%;"> <span style="color:#575555;"><br>****hu</span>
+            
+            <p class="icon"><i class="fa fa-star orange"></i>  <i class="fa fa-star orange"></i> <i class="fa fa-star orange"></i> <i class="fa fa-star orange "></i> <i class="fa fa-star orange "></i></p>
+          <p style="text-align: justify">Đà Lạt là một nơi tuyệt vời để bạn đi du lịch</p>
+          </div>
+          <div style="clear: both;"></div>
+          <div id="hinhNho"> 
+            <div class="hn"><img src="asess/image/thanh-pho-da-lat.jpg" width="100%" height="100%"></div>
+            <div class="hn"><img src="asess/image/vuonhoa.jpeg" width="100%" height="100%"></div>
+            <div class="hn"><img src="asess/image/thac-datanla-1.jpg" width="100%" height="100%"></div>
+            <div class="hn"> <img src="asess/image/xe.jpg" width="100%" height="100%"></div>
+          
+          </div>
+          <br><br>  
+  
+          <div id="hinh">
+    
+            <img  src="asess/image/nhatrang.jpg" height="100%" width="100%;" >
+        
+          </div>
+          <div><img src="asess/image/hinh-avatar-nu.jpg" style="border-radius: 50%; width: 15%; height: 15%;"> <span style="color:#575555;"><br>****an</span>
+            
+            <p class="icon"><i class="fa fa-star orange"></i>  <i class="fa fa-star orange"></i> <i class="fa fa-star orange"></i> <i class="fa fa-star orange "></i> <i class="fa fa-star  "></i></p>
+          <p style="text-align: justify">Nha Trang thành phố biển</p>
+          </div>
+          <div style="clear: both;"></div>
+          <div id="hinhNho"> 
+            <div class="hn"><img src="asess/image/thanh-pho-da-lat.jpg" width="100%" height="100%"></div>
+            <div class="hn"><img src="asess/image/vuonhoa.jpeg" width="100%" height="100%"></div>
+            <div class="hn"><img src="asess/image/thac-datanla-1.jpg" width="100%" height="100%"></div>
+            <div class="hn"> <img src="asess/image/xe.jpg" width="100%" height="100%"></div>
+          
+          </div>
+
+          <br><br>  
+  
+          <div id="hinh">
+    
+            <img  src="asess/image/Hue.jpg" height="100%" width="100%;" >
+        
+          </div>
+          <div><img src="Iasess/image/hinh-avatar-nu.jpg" style="border-radius: 50%; width: 15%; height: 15%;"> <span style="color:#575555;"><br>***na</span>
+            
+            <p class="icon"><i class="fa fa-star orange"></i>  <i class="fa fa-star orange"></i> <i class="fa fa-star orange"></i> <i class="fa fa-star orange "></i> <i class="fa fa-star  "></i></p>
+          <p style="text-align: justify">Thành Phố Huế mộng mơ</p>
+        
+          </div>
+     
+      </div>
+      <div id="Rkhung">
+       <p class="btn-hero" style="font-size: 20px;font: bold;padding-bottom: 5px;" align="center">Địa điểm nổi bật</p>
+        <div style="border: 1px solid #575555;width: 300x; background-color: #AFAAAB;" >
+        <img src="asess/image/nhatrang.jpg" width="100%">
+        <p align="center" class="icon"><i class="fa fa-star orange"></i>  <i class="fa fa-star orange"></i> <i class="fa fa-star orange"></i> <i class="fa fa-star orange "></i> <i class="fa fa-star  "></i></p>
+
+        <p align="center">Thành Phố Biển Nha Trang</p>
+      
+      </div>
+      <br>
+      <br>
+      <div style="border: 1px solid #575555;width: 300x; background-color: #AFAAAB;" >
+        <img src="asess/image/dalat-thang10-1.jpg" width="100%">
+        <p align="center" class="icon"><i class="fa fa-star orange"></i>  <i class="fa fa-star orange"></i> <i class="fa fa-star orange"></i> <i class="fa fa-star orange "></i> <i class="fa fa-star  "></i></p>
+
+        <p align="center">Đà Lạt mùa thu</p>
+      
+      </div>
+      <br>
+      <br>
+      <div style="border: 1px solid #575555;width: 300x; background-color: #AFAAAB;" >
+        <img src="asess/image/Hue.jpg" width="100%">
+        <p align="center" class="icon"><i class="fa fa-star orange"></i>  <i class="fa fa-star orange"></i> <i class="fa fa-star orange"></i> <i class="fa fa-star orange "></i> <i class="fa fa-star  "></i></p>
+
+        <p align="center">Thành Phố Huế mộng mơ</p>
+      
+      </div>
+      <br>
+      <br>
+      <div style="border: 1px solid #575555;width: 300x; background-color: #AFAAAB;" >
+        <img src="asess/image/landmark81.jpg" width="100%">
+        <p align="center" class="icon"><i class="fa fa-star orange"></i>  <i class="fa fa-star orange"></i> <i class="fa fa-star orange"></i> <i class="fa fa-star orange "></i> <i class="fa fa-star orange  "></i></p>
+
+        <p align="center">Sài Gòn </p>
+      
+      </div>
+      <br>
+      <br>
+      <div style="border: 1px solid #575555;width: 300x; background-color: #AFAAAB;" >
+        <img src="asess/image/hanoi.jpg" width="100%">
+        <p align="center" class="icon"><i class="fa fa-star orange"></i>  <i class="fa fa-star orange"></i> <i class="fa fa-star orange"></i> <i class="fa fa-star orange "></i> <i class="fa fa-star orange "></i></p>
+
+        <p align="center">Hà Nội</p>
+      
+      </div>
+       
+      </div>
+  
+    
+    </div>
+   
+  
+    <div style="clear: both;"></div>
+    <br>
+    <footer class="footer" id="Footer">
+      <div class="footer-inf">
+              <h2>Thông Tin Liên Hệ</h2>
+              <hr style="border: 2px solid rgba(99, 130, 130, 0.84); width: 110px;float: left;">
+              <br>
+              <ul>
+                  <li><a class="fas fa-location-dot" style="padding: 5px;"></a> <a>140 Lê Trọng Tấn, Tân Phú, <br> Thành Phố Hồ Chí Minh.</a></li>
+                  <li><a class="fas fa-phone" style="padding: 5px;"></a><a>0938 494 482</a></li>
+                  <li><a class="fas fa-envelope" style="padding: 5px;"></a><a>Heavyxinchao@gmail.com.vn</a></li>
+
+              </ul>
+      </div>
+      <div class="footer-inf">
+          <h2>Về Heavy</h2>
+          <hr style="border: 2px solid rgba(99, 130, 130, 0.84); width: 110px;float: left;">
+          <br>
+          <ul class="inf-col2">
+            <li class="int-col2"><a href="Index.html">Trang Chủ</a></li>
+            <li class="int-col2"><a href="GioiThieu.html">Giới Thiệu</a></li>
+            <li class="int-col2"><a href="DatLich.html">Đặt Lịch</a></li>
+            <li class="int-col2"><a href="Review.html">Đánh Giá</a></li>
+            <li class="int-col2"><a href="#Footer">Liên Hệ</a></li>
+          </ul>
+      </div>
+      <div class="footer-inf">
+          <h2>Dịch Vụ</h2>
+          <hr style="border: 2px solid rgba(99, 130, 130, 0.84); width: 110px;float: left;">
+          <br>
+          <ul class="inf-col2">
+              <li class="int-col2"><a href="MienTay.html">Tour Miền Tây</a></li>
+              <li class="int-col2"><a href="MienNam.html">Tour Miền Nam</a></li>
+              <li class="int-col2"><a href="MienTrung.html">Tour Miền Trung</a></li>
+              <li class="int-col2"><a href="MienBac.html">Tour Miền Bắc</a></li>
+              <li class="int-col2"><a href="#">Tour Ngẫu Nhiên</a></li>
+          </ul>
+      </div>
+      <div class="footer-inf">
+            <h2>Theo dõi chúng tôi trên</h2>
+            <hr style="border: 2px solid rgba(99, 130, 130, 0.84); width: 110px;float: left;margin-bottom: 2px;">
+            <br>
+              <div class="social-links">
+              <a href="#" class="facebook"><i class="fab fa-facebook-f"> <ion-icon name="logo-facebook"></ion-icon></i></a>
+              <a href="#" class="twitter"><i class="fab fa-twitter"><ion-icon name="logo-twitter"></ion-icon></i></a>
+              <a href="#" class="ig"><i class="fab fa-instagram"><ion-icon name="logo-instagram"></ion-icon></i></a>
+              <a href="#" class="tiktok"><i class="fab fa-tiktok"><ion-icon name="logo-linkedin"></ion-icon></i></a>
+              <a href="#" class="git"><i class="fab fa-github"><ion-icon name="logo-github"></ion-icon></i></a>
+
+          </div>
+      </div>
+</footer>
+     
+  <script>
+    const btn = document.querySelector("#buton");
+  const post = document.querySelector(".post");
+  const widget = document.querySelector(".star-rating");
+  const editBtn = document.querySelector(".edit");
+  btn.onclick = ()=>{
+    widget.style.display = "none";
+    post.style.display = "block";
+    editBtn.onclick = ()=>{
+      widget.style.display = "block";
+      post.style.display = "none";
+    }
+    return false;
+  }
+    </script>
+  </body>
+  
+</html>

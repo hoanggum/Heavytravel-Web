@@ -1,0 +1,296 @@
+.header{
+  height:110px;
+  width: 100%;   
+  background-color: #80808015;
+}
+.header:hover{
+  background-color: rgba(50, 49, 49, 0.148);
+}
+.logo_heavy{
+  margin:10px 20px;
+  color:rgb(10, 254, 254);
+  text-decoration: none; 
+  font-size: 2.0rem;
+  
+}
+.header_navbar-list{
+  display:flex;
+  list-style: none;
+  padding-top: 14px;
+
+}
+.header_navbar-item{
+  margin:0 30px;
+  text-decoration: none; 
+  color:rgb(0, 0, 0);
+  font-size: 1.2rem;
+}
+.header_navbar-item:hover{
+  color: rgb(87, 249, 238);
+}
+.header_navbar{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  position: relative;
+
+}
+.search_box{
+  border-radius: 30px;
+  height: 40px;
+  background-color:#fff;
+}
+.search_box-input{
+  background:none;
+  border:none;
+  outline:none;
+  padding:10px 15px;
+  font-size: 14px;
+}
+.search_box-btn{
+  border:none;
+  background:#fff;
+  border-radius: 50%;
+  padding:12px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.search_box-btn:hover{
+  color:  rgb(87, 249, 238);
+}
+.login_item{
+  text-decoration: none; 
+  color:aliceblue;
+  font-size: 1.2rem;
+  list-style: none;
+  margin: 10px 15px 0px 15px;
+}
+.login_item:hover{
+  color:  rgb(87, 249, 238);
+
+}
+.header_navbar_right{
+  display: flex;
+  padding: 0px 30px;
+  height: 40px;
+  margin: 4px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  
+  
+  
+  background-image: url("asess/image/img1.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.containers{
+  margin: 0 auto;
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background: #0000000f;
+  padding: 20px 30px;
+  border: 1px solid #44444400;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.containers .post{
+  display: none;
+}
+.containers .text{
+  font-size: 25px;
+  color: #fe7;
+  font-weight: 500;
+}
+.containers .edit{
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 16px;
+  color: #fe7;
+  font-weight: 500;
+  cursor: pointer;
+}
+.containers .edit:hover{
+  text-decoration: underline;
+}
+.containers .star-rating input{
+  display: none;
+}
+.star-rating label{
+  font-size: 40px;
+  color: #444;
+  padding: 10px;
+  float: right;
+  transition: all 0.2s ease;
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{   color: #fd4;
+}
+input:checked ~ label{
+  color: #fd4;
+}
+input#rate-5:checked ~ label{
+  color: #fe7;
+  text-shadow: 0 0 20px #952;
+}
+#rate-1:checked ~ form header:before{
+  content: "Tôi rất Không Hài Lòng ";
+}
+#rate-2:checked ~ form header:before{
+  content: "Tôi Không Hài Lòng  ";
+}
+#rate-3:checked ~ form header:before{
+  content: "Tôi cảm thấy bình thường ";
+}
+#rate-4:checked ~ form header:before{
+  content: "Tôi cảm thấy tuyệt vời ";
+}
+#rate-5:checked ~ form header:before{
+  content: "Tôi cảm thấy rất tuyệt vời ";
+}
+.containers form{
+  display: none;
+}
+input:checked ~ form{
+  display: block;
+}
+form header{
+  width: 100%;
+  font-size: 25px;
+  color: #fe7;
+  font-weight: 500;
+  margin: 5px 0 20px 0;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+form .textarea{
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+form .textarea textarea{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #eee;
+  border: 1px solid #333;
+  background: #222;
+  padding: 10px;
+  font-size: 17px;
+  resize: none;
+}
+.textarea textarea:focus{
+  border-color: #444;
+}
+form .btn{
+  height: 45px;
+  width: 100%;
+  margin: 15px 0;
+}
+form .btn button{
+  height: 100%;
+  width: 100%;
+  border: 1px solid #444;
+  outline: none;
+  background: #fe7;
+  color: #000;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form .btn button:hover{
+  background: #FBFF00;
+}
+
+/* Foooter */
+.footer{
+  padding-top: 0px;
+  background-color: rgba(170, 180, 174, 0.667);
+  width: 100%;
+  min-height:250px;
+  display:flex;
+  justify-content: space-between;
+  
+
+}
+.footer-inf ul li{
+  list-style: none;
+  
+}
+.footer-inf{
+  padding-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.footer-inf h2{
+  font-size: 19px;
+  color: #272222;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.inf-col2 li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+  color: black;
+}
+.inf-col2 li a:hover{ 
+  color: #062831bf;
+  padding-left: 8px;
+}
+.social-links{
+  margin-top: 10px;
+}
+.social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.701);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #584d4ddd;
+  transition: all 0.5s ease;
+}
+.facebook:hover{
+  color: #fff;
+  background-color: rgb(71, 171, 242);
+}
+.twitter:hover{
+  color: #fff;
+  background-color: rgb(109, 190, 249);
+}
+.ig:hover{
+  color:#C13584;
+  background-color:rgba(240, 248, 255, 0.943);
+}
+.tiktok:hover{
+  color: #fff;
+  background-color: black;
+}
+.git:hover{
+  color: #fdfdfd;
+  background-color:#4B0082;
+}
